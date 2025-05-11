@@ -1,0 +1,58 @@
+
+---
+
+**`.gitignore`:**
+
+```gitignore
+# Environment variables
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Streamlit (if any local config/secrets you don't want to share)
+# .streamlit/secrets.toml (if you were to use Streamlit's native secrets)
+
+# Test artifacts
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Notebook checkpoints
+.ipynb_checkpoints
