@@ -105,12 +105,6 @@ button p {
         fill: #262730 !important;
     }
 
-.st-er {
-    background-color: rgb(244 246 248);
-}
-.st-cc {
-    color: rgb(25 24 24);
-}
     .st-emotion-cache-13na8ym, .st-emotion-cache-seewz2 hr {
     border-color: #22212133;
 }
